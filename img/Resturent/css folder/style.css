@@ -1,0 +1,8 @@
+* {padding:0;
+   margin:0;
+   box-sizing: border-box;}
+.s1{background-color:#170b3b;font-weight: 600;}
+.icon{font-size:100px;color: yellow;float: right; padding: 10px 80px 0px 0px;}
+a:hover{border-radius: 20px;background-color:white;}
+.back{height:600px;background-image:url(.img foldder/back1.jpg);}
+.icon2{color:yellow;float:right;}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration</title>
+<link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+<!-- === use for font-awesome icon === -->
+<link rel="stylesheet" href="font-awesome-4.7.0/css/fontawesome.min.css">
+<style type="text/css">
+.main_area{
+float: left;
+width: 100%;
+position: relative;
+}
+.reg_section{
+float: left;
+width: 100%;
+position: relative;
+min-height: 100vh;
+background-image: linear-gradient(to bottom right,#72b5e2,
+#9a5bb4);
+}
+.reg_form_area{
+width: 50%;
+/*margin-top: 9%;
+margin-bottom: 9%;*/
+border-radius: 10px;
+box-shadow: #757373 8px 10px 20px;
+position: relative;
+background: #fff;
+}
+.reg_form_area h3{
+position: relative;
+/* float: left;*/
+width: 100%;
+}
+.reg_form_area h3::before{
+content: '';
+background: linear-gradient(to right,#72b5e2, #9a5bb4);
+height: 2px;
+position: absolute;
+bottom:-5px;
+left: auto;
+width: 30px;
+transition: all 0.6s ease-in-out;
+}
+.reg_form_area h3:hover::before{
+width: 100%;
+}
+.custom_btn{
+background: linear-gradient(to right,#72b5e2, #9a5bb4);
+}
+@media only screen and (max-width:667px){
+.reg_form_area{width: 80%;}
+}
+</style>
+</head>
+<body>
+<div class="main_area">
+<section class="reg_section">
+<div class="container">
+<div class="reg_form_area mx-auto my-4 p-3">
+<h3 class="mb-4">Registration<i class="fa fa-user"></i></h3>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label class="">Full Name</label>
+<input type="text" name="" class="form-control"
+placeholder="Enter your name" />
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label class="">Username</label>
+<input type="text" name="" class="form-control"
+placeholder="Enter your username" />
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label class="">Email</label>
+<input type="email" name="" class="form-control"
+placeholder="Enter your email" />
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label class="">Phone Number</label>
+<input type="text" name="" class="form-control"
+placeholder="Enter your phone number" />
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label class="">Password</label>
+<input type="text" name="" class="form-control"
+placeholder="Enter your password" />
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<div class="form-group">
+<label class="">Confirm Password</label>
+<input type="text" name="" class="form-control"
+placeholder="Enter your confirm password" />
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group">
+<label class="">Gender</label>
+<div class="row">
+<div class="col-4">
+<label><input type="radio" name="gender"
+value="Male" /> Male</label>
+</div>
+<div class="col-4">
+<label><input type="radio" name="gender"
+value="Female" /> Female</label>
+</div>
+<div class="col-4">
+<label><input type="radio" name="gender"
+value="Prefer not to say" /> Prefer not to say</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group">
+<button class="btn text-white w-100
+custom_btn">Register</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script type="text/javascript" src="js/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js">
+</script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
